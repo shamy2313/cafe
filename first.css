@@ -1,0 +1,20 @@
+body{
+
+background-image: url(design.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container{
+    background: rgba(76, 75, 71, 75%);
+   
+ padding:75px 100px 75px 100px;
+    margin:200px 100px 100px 500px;
+    width: 500px;
+}
+form{
+    padding-top: 10px;
+}
+header{
+    color:aliceblue
+}

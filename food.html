@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(food.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;  
+        }
+        h1{
+            text-align: center;
+            color: rgb(89, 6, 6);
+        }
+    #projects{
+        width: 90%;
+        height: auto;
+        margin: 5%;
+        padding: 5px;
+        text-align: center;
+    }
+    .projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+    .projects h2{
+        color: #b26759;
+    
+    }
+    .marvel{
+        width: 400px;
+        height: 300px;
+        background: #F5E3E0;
+        position: relative;
+        border-radius: 10px;
+        background-image: url(idly.jpeg);
+        margin: 10px;
+        background-size: 100% 100%;
+        background-position:center;
+    }
+    .BBC{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(dosa.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+
+    .puri{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(puri.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+    .meals{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(meals.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+    .non{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(non.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+    .chicken{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(biryani.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+    .mutton{
+    width: 400px;
+    height: 300px;
+    background: #F5E3E0;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(mutton.jpeg);
+    margin: 10px;
+    background-size: 100% 100%;
+    background-position:center;}
+    
+
+    
+    .text{
+    position: absolute;
+    height: 60px;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color:#d49fb7;
+    overflow:hidden;
+    transition: 0.2s;
+    padding: 0px 20px;
+
+
+}
+.text:hover{
+    transition: 0.2s;
+    height:100px}
+</style>
+</head>
+<body>
+    <h1>Food</h1>
+    <section id="projects">
+        <div class="projects">
+            
+            <div class="projects">
+                <div class="marvel">
+                    <div class="text">
+                        <h3 class="Project name">idly</h3>
+                        <div class="content">
+                            <p>Rs.20</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="BBC">
+                    <div class="text">
+                        <h3 class="Project name">Dosa</h3>
+                        <div class="content">
+                            <p>Rs.40</p>
+                    </div>
+                </div>
+             </div>
+             <div class="puri">
+                <div class="text">
+                    <h3 class="Project name">Puri</h3>
+                    <div class="content">
+                        <p>Rs.30</p>
+                </div>
+            </div>
+         </div>
+         <div class="meals">
+            <div class="text">
+                <h3 class="Project name">Meals</h3>
+                <div class="content">
+                    <p>Rs.100</p>
+            </div>
+        </div>
+     </div>
+     <div class="non">
+        <div class="text">
+            <h3 class="Project name">Non-VegMeals</h3>
+            <div class="content">
+                <p>Rs.150</p>
+        </div>
+    </div>
+ </div>
+ <div class="chicken">
+    <div class="text">
+        <h3 class="Project name">Chicken Biryani</h3>
+        <div class="content">
+            <p>Rs.100</p>
+    </div>
+</div>
+</div>
+<div class="mutton">
+    <div class="text">
+        <h3 class="Project name">Mutton Biryani</h3>
+        <div class="content">
+            <p>Rs.100</p>
+    </div>
+</div>
+</div>
+        
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
